@@ -117,7 +117,7 @@ func openaiRequest(transcribedText string) string {
 "model": "gpt-3.5-turbo-instruct",
 "prompt": "` + sendString + `",
 "temperature": 0.7,
-"max_tokens": 256,
+"max_tokens": 64,
 "top_p": 1,
 "frequency_penalty": 0.2,
 "presence_penalty": 0
